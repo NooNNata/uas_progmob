@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasi_pariwisata_bali">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wisata Daerah Bali"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wisata">
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".Lawar" />
+        <activity android:name=".BabiGuling" />
+        <activity android:name=".batur" />
+        <activity android:name=".besakih" />
+        <activity android:name=".WisataReligi" />
+        <activity android:name=".WisataKuliner" />
+        <activity android:name=".ArtCenter" />
+        <activity android:name=".Bajrasandhi" />
+        <activity android:name=".WisataEdukasi" />
+        <activity android:name=".PantaiSanur" />
+        <activity android:name=".PantaiKuta" />
+        <activity android:name=".WisataAlam" />
+        <activity android:name=".Alam" />
+        <activity android:name=".MenuUtama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
